@@ -2,6 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ ** main - entry point
+  **
+ ** Return: 0(all times)
+ */
+
 int main(void)
 {
 int n;
