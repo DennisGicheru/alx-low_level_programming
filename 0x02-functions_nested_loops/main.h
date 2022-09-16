@@ -4,9 +4,8 @@
 /*
  * print_str -prints out a string
  *
- * return: a string
+ * return: c string
 */
 
-
-int _putchar(char a);
+int _putchar(char c);
 #endif 
