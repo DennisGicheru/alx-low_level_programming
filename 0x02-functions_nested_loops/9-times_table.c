@@ -1,10 +1,10 @@
 #include "main.h"
-
-/*
- * times_tablev-prints the 9 times table
+/**
+ * times_table - prints the 9 times table
  *
  * Return: no return
  */
+
 
 void print_alphabet(void)
 {
