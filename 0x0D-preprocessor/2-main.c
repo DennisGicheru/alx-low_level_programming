@@ -3,7 +3,7 @@
 /**
  * main - prints name of compilation file followed by new line
  *
- * Return: Always 0.
+ * Return: 0.
  */
 
 int main(void)
