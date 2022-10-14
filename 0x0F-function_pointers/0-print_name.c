@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_name_as_is - prints a name as is
- * @name: name of the person
- *
+ * print_name - function that prints a name
+ * @name: name
  * @f: callback function
+ * 
  * Description: function that prints a name
  */
 
