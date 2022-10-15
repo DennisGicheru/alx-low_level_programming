@@ -23,10 +23,10 @@ int sum_them_all(const unsigned int n, ...)
 	/* access all the arguments assigned to valist */
 	i = 0;
 	while (i < n)
-		{
-			sum += va_arg(sum_num, int);
-			i++;
-		}
+	{
+		sum += va_arg(sum_num, int);
+		i++;
+	}
 
 	/* clean memory reserved for valist */
 	va_end(sum_num);
