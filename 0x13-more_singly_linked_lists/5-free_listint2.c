@@ -9,7 +9,7 @@
 
 void free_listint2(listint_t **head)
 {
-	listint_int *temp; /*declare the list*/
+	listint_t *temp; /*declare the list*/
 
 	if (head == NULL || *head == NULL)
 		return;
