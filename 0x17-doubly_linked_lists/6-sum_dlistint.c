@@ -3,7 +3,6 @@
 /**
  *sum_dlistint - sum elements in list
  *@head: head
- *@n: integer
  *Return: Sum of all data or 0 if list is empty
  */
 
