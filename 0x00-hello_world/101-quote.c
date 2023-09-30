@@ -15,5 +15,5 @@ int main(void)
 int len = strlen(TEXT);
 write(1, TEXT, len);
 
-return (0);
+return (1);
 }
