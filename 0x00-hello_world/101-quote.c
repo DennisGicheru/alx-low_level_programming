@@ -8,12 +8,13 @@
 * *Return: always 0 (success)
 */
 
-#define TEXT "\"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"
+/* #define TEXT "\"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"*/
 
 int main(void)
 {
-int len = strlen(TEXT);
-write(1, TEXT, len);
+/* int len = strlen(TEXT);*/
+/* write(1, TEXT, len);*/
+fprintf(stderr, "\"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 
 return (1);
 }
