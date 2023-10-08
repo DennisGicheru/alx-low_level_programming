@@ -15,12 +15,15 @@ for (d = '0'; d <= '9'; d++)
 {
 for (n = '0'; n <= '9'; n++)
 {
-if (d != n && d < n)
+if (d < n)
 {
 putchar(d);
 putchar(n);
+if (d != '8')
+{
 putchar (',');
 putchar (' ');
+}
 }
 }
 }
